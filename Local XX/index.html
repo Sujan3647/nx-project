@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Businees website</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <div class="header-search">
+        <input type="search" name="search" placeholder="Search Product..." class="input-field">
+
+        <button class="search-btn" aria-label="Search">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+      <a href="#" class="logo">
+        <img src="Screenshot 2024-07-24 133644.png" alt="Casmart logo" width="130" height="31">
+        
+      </a>
+
+      <div class="header-actions">
+
+        <button class="header-action-btn">
+          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">Sign in</p>
+        </button>
+
+        <button class="header-action-btn">
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">Search</p>
+        </button>
+
+        <button class="header-action-btn">
+          <ion-icon name="cart-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">Cart</p>
+
+          <div class="btn-badge green" aria-hidden="true">3</div>
+        </button>
+
+        <button class="header-action-btn">
+          <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">Wishlisht</p>
+
+          <div class="btn-badge" aria-hidden="true">2</div>
+        </button>
+
+      </div>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" alt="Casmart logo" width="130" height="31">
+          </a>
+
+          <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Shop</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" style="background-image: url('colorful-bird-02.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle" style="color: white;">Two hearts, one Love</p>
+
+            
+
+            <button class="btn btn-primary">Shop Now</button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service">
+        <div class="container">
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-item-icon">
+                <img src="./assets/images/service-icon-1.svg" alt="Service icon">
+              </div>
+
+              <div class="service-content">
+                <p class="service-item-title">Free Shipping</p>
+
+                <p class="service-item-text">On All Order Over ₹599</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-item-icon">
+                <img src="./assets/images/service-icon-2.svg" alt="Service icon">
+              </div>
+
+              <div class="service-content">
+                <p class="service-item-title">Easy Returns</p>
+
+                <p class="service-item-text">30 Day Returns Policy for accessories</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-item-icon">
+                <img src="./assets/images/service-icon-3.svg" alt="Service icon">
+              </div>
+
+              <div class="service-content">
+                <p class="service-item-title">Secure Payment</p>
+
+                <p class="service-item-text">100% Secure Gaurantee</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-item-icon">
+                <img src="./assets/images/service-icon-4.svg" alt="Service icon">
+              </div>
+
+              <div class="service-content">
+                <p class="service-item-title">Special Support</p>
+
+                <p class="service-item-text">24/7 Dedicated Support</p>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - about
+      -->
+
+
+      <section class="section category">
+        <div class="container">
+          <h2 class="h2 section-title" style="text-decoration: underline;">About</h2>
+
+          <h2>Explore our site for a delightful range of birds, bird fruits, toys, and accessories. Perfect for every bird lover!</h2>
+          <ul class="category-list">
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="https://i.pinimg.com/originals/98/77/5e/98775e3a0ff66b4803b27820cff1e5b3.png" alt="Sunglass & eye" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#" class="btn btn-secondary">Mitchell's Cockatoo</a>
+            </li>
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="https://wallup.net/wp-content/uploads/2018/10/07/453528-parrot-macaw-bird.jpg" alt="Active & outdoor" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#" class="btn btn-secondary">Macaw</a>
+            </li>
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="https://static.wixstatic.com/media/3578cb_2e13e36835e0402ab4c0195129c85c99~mv2.jpeg/v1/fit/w_770%2Ch_543%2Cal_c%2Cq_80,enc_auto/file.jpeg" alt="Winter wear" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#" class="btn btn-secondary">Rainbow Lorikeet</a>
+            </li>
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="https://static.wixstatic.com/media/3578cb_904ba9cba1304a90baed763880a0e6e2~mv2.jpeg/v1/fit/w_1820%2Ch_1000%2Cal_c%2Cq_80,enc_auto/file.jpeg" alt="Exclusive footwear" loading="lazy" width="510"
+                  height="600" class="w-100">
+              </figure>
+
+              <a href="#" class="btn btn-secondary">Salmon Crested Cockatoo </a>
+            </li>
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="https://static.wixstatic.com/media/3578cb_95cbf3cec61c4cfeb23687431a5fd27b~mv2.jpeg/v1/fit/w_300%2Ch_300%2Cal_c%2Cq_80,enc_auto/file.jpeg" alt="Jewelry" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#" class="btn btn-secondary">Galah</a>
+            </li>
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="https://static.wixstatic.com/media/3578cb_ea538cc94fd44840890defef45fe1003~mv2.jpeg/v1/fit/w_620%2Ch_421%2Cal_c%2Cq_80,enc_auto/file.jpeg" alt="Sports cap" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#" class="btn btn-secondary">Sulphur Crested Cockatoo</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PRODUCT
+      -->
+
+      <section class="section product">
+        <div class="container">
+
+          <h2 class="h2 section-title">Shop</h2>
+
+          <ul class="filter-list">
+
+            <li>
+              <button class="filter-btn  active">Bird's Food</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Birds Sell</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Birds Buy</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Birds Accessories</button>
+            </li>
+
+          </ul>
+
+          <ul class="product-list">
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="https://static.wixstatic.com/media/3578cb_49306ca162854eeab8e7739bb4088b39~mv2.jpeg/v1/fit/w_720%2Ch_588%2Cal_c%2Cq_80,enc_auto/file.jpeg" alt="Varsi Leather Bag" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-badge red"> -10%</div>
+
+                  <div class="card-actions">
+
+                    <button class="card-action-btn" aria-label="Quick view">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+                    </button>
+
+                    <button class="card-action-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Bird - Gouldian Finch</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="4800.75"> ₹ 4800.75</data>
+
+                   
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="https://th.bing.com/th/id/OIP.sIIwUF7nXsXgMSNmHI7c0AHaHa?rs=1&pid=ImgDetMain" alt="Fit Twill Shirt for Woman" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-badge green"> New</div>
+
+                  <div class="card-actions">
+
+                    <button class="card-action-btn" aria-label="Quick view">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+                    </button>
+
+                    <button class="card-action-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Hanging Stand</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="2500">₹ 2500</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="https://static.wixstatic.com/media/3578cb_78821566bfa14e5e99e693ab1937d422~mv2.jpeg/v1/fit/w_420%2Ch_607%2Cal_c%2Cq_80,enc_auto/file.jpeg" alt="Grand Atlantic Chukka Boots" loading="lazy"
+                      width="800" height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-actions">
+
+                    <button class="card-action-btn" aria-label="Quick view">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+                    </button>
+
+                    <button class="card-action-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Caique</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="8000">₹ 8000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="https://static.wixstatic.com/media/3578cb_987cfc31f5b84171aea9b40b8352d098~mv2.jpeg/v1/fit/w_1270%2Ch_1000%2Cal_c%2Cq_80,enc_auto/file.jpeg" alt="Women's Faux-Trim Shirt" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-actions">
+
+                    <button class="card-action-btn" aria-label="Quick view">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+                    </button>
+
+                    <button class="card-action-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Grey Parrot</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="6000">₹ 6000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="https://i.pinimg.com/originals/6c/05/a7/6c05a74879209cd3fe95987ea90b7d6d.jpg" alt="Soft Touch Interlock Polo" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-actions">
+
+                    <button class="card-action-btn" aria-label="Quick view">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+                    </button>
+
+                    <button class="card-action-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Diy Bird Toy</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="1200">₹ 1200</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="https://i5.walmartimages.com/asr/bb314fc6-4732-4ea1-9dee-0cf5a81eaa04_1.0a7573c8727eeebcc512e94539e06cf1.jpeg" alt="Casmart Smart Watch" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-actions">
+
+                    <button class="card-action-btn" aria-label="Quick view">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+                    </button>
+
+                    <button class="card-action-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Haging Bath</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="500">₹ 500</data>
+
+                    
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="https://s7d2.scene7.com/is/image/PetSmart/5264373" alt="Casmart Smart Glass" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-actions">
+
+                    <button class="card-action-btn" aria-label="Quick view">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+                    </button>
+
+                    <button class="card-action-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Bird  House</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="1400"> ₹ 1400</data>
+
+              
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="https://th.bing.com/th/id/OIP.Nj_57SMQjPfnZD_iPfHXzgHaHa?rs=1&pid=ImgDetMain" alt="Cotton Shirt for Men" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-actions">
+
+                    <button class="card-action-btn" aria-label="Quick view">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+                    </button>
+
+                    <button class="card-action-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Woolwarms Bird Food</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="250"> ₹ 250</data>
+
+              
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/3027794-center-1" alt="Double-breasted Blazer" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-actions">
+
+                    <button class="card-action-btn" aria-label="Quick view">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+                    </button>
+
+                    <button class="card-action-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">kaytee Do Dips Stawberry  banana Flovour</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="800">₹ 800</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="https://i.pinimg.com/originals/01/71/cf/0171cfc533f1554ed0b0c3d1ebf6abea.jpg" alt="Ribbed Cotton Bodysuits" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">New</div>
+
+                  <div class="card-actions">
+
+                    <button class="card-action-btn" aria-label="Quick view">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+                    </button>
+
+                    <button class="card-action-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Diy Bird Food Suet</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="200"> ₹ 200</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-outline">View All Products</button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #services
+      -->
+
+      <section class="section blog">
+        <div class="container">
+
+          <h2 class="h2 section-title">Services</h2>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="https://4.bp.blogspot.com/-rVe4JKUnsyk/TphTvSlDDzI/AAAAAAAACR0/O9SThfUxKaE/s1600/lovebirds_beautifulbirds_picturespool_20.jpg" alt="Worthy Cyber Monday Fashion From Casmart" loading="lazy"
+                      width="1020" height="700" class="w-100">
+                  </a>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="folder-open-outline"></ion-icon>
+
+                      <a href="#" class="card-meta-link">Buy & Sell Birds</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <a href="#" class="card-meta-link">
+                        <time datetime="">24*7 through online </time>
+                      </a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Buy and sell exotic birds online easily and safely here!</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="https://i.pinimg.com/originals/e3/ad/5e/e3ad5ef59ee855c6565c4c7954659f2a.jpg" alt="Holiday Home Decoration I’ve Recently Ordered"
+                      loading="lazy" width="1020" height="700" class="w-100">
+                  </a>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="folder-open-outline"></ion-icon>
+
+                      <a href="#" class="card-meta-link">All Birds Accessories</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <a href="#" class="card-meta-link">
+                        <time datetime="2021-03-31">24*7 you can Buy</time>
+                      </a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Enhance your bird's life with our top-quality accessories today!</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="https://cdn.cdnparenting.com/articles/2019/03/08153146/151195709-H-1024x700.jpg" alt="Unique Ideas for Fashion You Haven’t heard yet"
+                      loading="lazy" width="1020" height="700" class="w-100">
+                  </a>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="folder-open-outline"></ion-icon>
+
+                      <a href="#" class="card-meta-link">All Birds Food</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <a href="#" class="card-meta-link">
+                        <time datetime="">All Day-Night Available</time>
+                      </a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Buy premium food for all birds, ensuring their health and happiness</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        
+      -->
+
+      <section class="section newsletter">
+        <div class="container">
+
+          <div class="newsletter-card" style="background-image: url('./assets/images/newsletter-bg.png')">
+
+            <h2 class="card-title" style="text-decoration: underline;">Contact</h2>
+
+          
+            <form onsubmit="sendEmail(); reset(); return false;" class="card-form">
+
+              <div class="input-wrapper">
+                <ion-icon name="mail-outline"></ion-icon>
+
+                <input type="text" id="name" placeholder="Enter your name" required class="input-field">
+                <br>
+                <input type="email" id="email" placeholder="Enter your email" required class="input-field">
+                <br>
+                <input type="text" id="phone" placeholder="Enter your phone no" required class="input-field">
+                <br>
+                <textarea id="message" placeholder="how May I help you" cols="77" required class="input-field"></textarea>
+
+              </div>
+
+              <button type="submit" class="btn btn-primary w-100">
+                <br>
+                <span>Submit</span>
+                <script src="https://smtpjs.com/v3/smtp.js"></script>
+                <script>
+                    function sendEmail(){
+                        Email.send({
+            Host : "smtp.gmail.com",
+            Username : "sujanali22iut@gmail.com",
+            Password : "Sujan3647@",
+            To : 'sujanali3647@gmail.com',
+            From : document.getElementById("email").value,
+            Subject : "New contact Form Enquiry",
+            Body : "n"
+        }).then(
+          message => alert("message send sucessfully")
+        );
+                    }
+                </script>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" alt="Casmart logo">
+          </a>
+
+          <p class="footer-text">
+            Casmart is a fashion theme for presents a complete wardrobe of uniquely crafted Ethnic Wear, Casuals, Edgy
+            Denims, &
+            Accessories inspired from the most contemporary
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Information</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Company</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Payment Type</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Awards Winning</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">World Media Partner</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Become an Agent</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Refund Policy</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Category</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Handbags & Wallets</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Women's Clothing</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Plus Sizes</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Complete Your Look</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Baby Corner</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Man & Woman Shoe</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Help & Support</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Dealers & Agents</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ Information</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Return Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Shipping & Delivery</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Order Tranking</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">List of Shops</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 <a href="#">codewithsadee</a>. All Rights Reserved
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Sitemap</a>
+          </li>
+
+        </ul>
+
+        <div class="payment">
+          <p class="payment-title">We Support</p>
+
+          <img src="./assets/images/payment-img.png" alt="Online payment logos" class="payment-img">
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
